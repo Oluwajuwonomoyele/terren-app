@@ -1,4 +1,4 @@
-const Pertners = () => {
+const Partners = () => {
     return ( 
         <section className="bg-e8 text-center">
             <div className="container mx-auto px-4 py-14">
@@ -9,4 +9,4 @@ const Pertners = () => {
     );
 }
  
-export default Pertners;
+export default Partners;
