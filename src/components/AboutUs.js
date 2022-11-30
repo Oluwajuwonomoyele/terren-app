@@ -4,11 +4,8 @@ import rectangle from '../assets/svg/black-rectangle.svg'
 const AboutUs = () => {
     return (  
         <section className="bg-e8 relative overflow-hidden" id="about-us">
-            <img src={circle} alt="circle"  className='absolute opacity-20 w-[100px] left-1 top-1'/>
-            <img src={rectangle} alt="rectangle" className='absolute opacity-20 w-[120px]
-            -bottom-16 right-0'/>
-            <div className="container mx-auto px-4 py-14 text-customBlack">
-                <h2 className="text-2xl font-bold text-center">About Us</h2>
+            <div className="container mx-auto px-4 md:px-14 py-14 lg:py-28 text-customBlack">
+                <h2 className="text-2xl md:text-3xl font-bold text-center">About Us</h2>
                 <div className="flex flex-col gap-8 text-center mt-12">
                     <div className="flex flex-col gap-4">
                         <h3 className="text-xl font-bold">Why we want to change how you see money</h3>
@@ -28,6 +25,8 @@ const AboutUs = () => {
                     <p>"Only Gen Zs create Gen Zs solutions"</p>
 
                 </div>
+                <img src={circle} alt="circle"  className='absolute opacity-20 w-[100px] xs:w-[120px] left-1 xs:left-2  top-1 xs:top-2'/>
+                <img src={rectangle} alt="rectangle" className='absolute opacity-20 w-[120px] -bottom-16 right-0'/>
             </div>
         </section>
     );

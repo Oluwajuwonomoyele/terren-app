@@ -6,10 +6,10 @@ import M from '../assets/svg/m.svg';
 const Team = () => {
     return (  
         <section className="bg-e8">
-            <div className="container mx-auto px-4 py-14">  
-                <h2 className="text-2xl font-bold text-center">The Team</h2>
-                <div className='flex flex-col mt-8 gap-8'>
-                    <div className='bg-f1 py-8 px-4 rounded-lg text-center shadow-lg'>
+            <div className="container mx-auto px-4 md:px-14 sm:px-8 py-14 lg:py-28">  
+                <h2 className="text-2xl md:text-3xl font-bold text-center">The Team</h2>
+                <div className='flex flex-col items-center  mt-8 gap-8'>
+                    <div className='bg-f1 py-8 px-4 rounded-lg text-center shadow-lg max-w-[450px] w-full'>
                         <div className='max-w-[200px] mx-auto'>
                             <img src={person} alt="" />
                         </div>
@@ -21,7 +21,7 @@ const Team = () => {
                             <img src={M} alt="M" />
                         </div>
                     </div>
-                    <div className='bg-f1 py-8 px-4 rounded-lg text-center shadow-lg'>
+                    <div className='bg-f1 py-8 px-4 rounded-lg text-center shadow-lg max-w-[450px] w-full'>
                         <div className='max-w-[200px] mx-auto'>
                             <img src={person} alt="" />
                         </div>
@@ -33,7 +33,7 @@ const Team = () => {
                             <img src={M} alt="M" />
                         </div>
                     </div>
-                    <div className='bg-f1 py-8 px-4 rounded-lg text-center shadow-lg'>
+                    <div className='bg-f1 py-8 px-4 rounded-lg text-center shadow-lg max-w-[450px] w-full'>
                         <div className='max-w-[200px] mx-auto'>
                             <img src={person} alt="" />
                         </div>
@@ -45,7 +45,7 @@ const Team = () => {
                             <img src={M} alt="M" />
                         </div>
                     </div>
-                    <div className='bg-f1 py-8 px-4 rounded-lg text-center shadow-lg'>
+                    <div className='bg-f1 py-8 px-4 rounded-lg text-center shadow-lg max-w-[450px] w-full'>
                         <div className='max-w-[200px] mx-auto'>
                             <img src={person} alt="" />
                         </div>
@@ -57,7 +57,7 @@ const Team = () => {
                             <img src={M} alt="M" />
                         </div>
                     </div>
-                    <div className='bg-f1 py-8 px-4 rounded-lg text-center shadow-lg'>
+                    <div className='bg-f1 py-8 px-4 rounded-lg text-center shadow-lg max-w-[450px] w-full'>
                         <div className='max-w-[200px] mx-auto'>
                             <img src={person} alt="" />
                         </div>

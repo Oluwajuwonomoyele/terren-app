@@ -12,16 +12,15 @@ const FAQs = () => {
         setSelected(i)
     }
 
-    console.log(selected)
     return (  
         <section className="bg-e8">
-            <div className="container mx-auto px-4 py-14">
-                <h2 className="font-bold text-2xl text-center">Frequently Asked Questions</h2>
-                <div className='mt-12 flex flex-col gap-2'>
+            <div className="container mx-auto px-4 md:px-14 py-14 lg:py-28">
+                <h2 className="font-bold text-2xl md:text-3xl text-center">Frequently Asked Questions</h2>
+                <div className='mt-12 flex flex-col items-center gap-2'>
                     {data.map(item => {
                         return (
-                            <div className="max-w-[1300px] bg-f1 rounded-md shadow-lg" key={item.id}>
-                                <div className='flex items-center justify-between cursor-pointer gap-4 shadow-md px-4 py-2' onClick={() => toggle(item.id)}>
+                            <div className="max-w-[900px] bg-f1 rounded-md shadow-lg" key={item.id}>
+                                <div className='flex items-center justify-between cursor-pointer gap-4 shadow-md px-4 py-2 xs:py-4' onClick={() => toggle(item.id)}>
                                     <h2 className='font-bold basis-[90%]'>{item.question}</h2>
                                     <HiChevronDown size={22} className={ selected === item.id ? '-rotate-180 transition-all duration-200 ease-linear basis-[10%]' : 'transition-all duration-200 ease-linear basis-[10%]'}/>
                                 </div>
