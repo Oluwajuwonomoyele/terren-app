@@ -14,8 +14,8 @@ const FAQs = () => {
 
     return (  
         <section className="bg-e8">
-            <div className="container mx-auto px-4 md:px-14 py-14 lg:py-28">
-                <h2 className="font-bold text-2xl md:text-3xl text-center">Frequently Asked Questions</h2>
+            <div className="container mx-auto px-6 md:px-14 py-14 lg:py-28">
+                <h2 className="font-bold text-2xl md:text-3xl xl:text-[42px] text-center">Frequently Asked Questions</h2>
                 <div className='mt-12 flex flex-col items-center gap-2'>
                     {data.map(item => {
                         return (

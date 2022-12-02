@@ -9,17 +9,6 @@ import Footer from './components/Footer'
 
 function App() {
   const [openNav, setOpenNav] = useState(false);
-  const spinner = document.getElementById('spinner')
-
-
-  // if(spinner){
-  //   setTimeout(() => {
-  //     spinner.style.display = 'none'
-  //   }, 3000)
-  //   if(spinner.style.display = 'none'){
-  //     setLoadPage(true)
-  //   } 
-  // }
 
   return (
     <Router>

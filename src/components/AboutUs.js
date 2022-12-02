@@ -4,29 +4,21 @@ import rectangle from '../assets/svg/black-rectangle.svg'
 const AboutUs = () => {
     return (  
         <section className="bg-e8 relative overflow-hidden" id="about-us">
-            <div className="container mx-auto px-4 md:px-14 py-14 lg:py-28 text-customBlack">
-                <h2 className="text-2xl md:text-3xl font-bold text-center">About Us</h2>
-                <div className="flex flex-col gap-8 text-center mt-12">
-                    <div className="flex flex-col gap-4">
-                        <h3 className="text-xl font-bold">Why we want to change how you see money</h3>
-                        <p>Almost all of us were brought up with the saving mentality but that doesn’t make you richer especially with the alarming rate of inflation but investing does. A lot of people have the false notion that investment is expensive and it requires a lot of capital so they miss out on a lot of life changing opportunities and that stunts economic and personal financial growth.</p>
+            <div className="container mx-auto px-6 md:px-14 py-14 lg:py-28 text-customBlack">
+                <h2 className="text-2xl md:text-3xl xl:text-[42px] font-bold text-center lg:hidden">About Us</h2>
+                <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 mt-12">
+                    <div className="flex flex-col gap-8 lg:basis-[60%] text-center lg:text-left">
+                        <h2 className="hidden lg:block text-2xl md:text-3xl xl:text-[42px] font-bold">About Us</h2>
+                        <p>Terren started as a small university entrepreneurship project called ‘Vesity’ but was quickly reinvented. Vesity was a platform that split the cost of real estate projects into units and allows a person to purchase as many units which translated to them getting a return-on-investment at the maturity date. Terren was to be an API-based structure, integrated into existing digital banksto serve as its investment feature. The investment process was that of Vesity but the unique difference was the API integration. This idea was then morphed into the groundbreaking and innovative startup you are about to experience.</p>
+                        <p>Terren is a first of its kind establishment known for its dedication towards bridging the resource and communication gap between finance and the real estate world in Africa with the aim of solving the real estate deficit problem on the continent.</p>
                     </div>
-                    <div className="flex flex-col gap-4">
-                        <h3 className="text-xl font-bold">How we want to do it</h3>
-                        <p>The Terren family has built a product that has been proven feasible to help young people invest in real estate for as low as 500 naira. People can buy units of a real estate project by a vetted real estate firm for a fixed price and earn above market return on their investment when the units are automatically sold back to the real estate firm after a few months (the maturity period). Terren will be integrated into your everyday mobile banking apps so investing can be made as easy as making a mobile transfer.</p>
-                    </div>
-                    <div className="flex flex-col gap-4">
-                        <h3 className="text-xl font-bold">Our final destination</h3>
-                        <p>Our long term goal is to reorientate Africans on how they view, think and use money. We want to be a passive income stream for every African and help them develop overall better financial judgement with our system of earning through incentives. </p>
+                    <div className='lg:flex flex-col gap-5 justify-center hidden basis-[40%] items-center'>
+                        <img src={circle} alt="" className='w-[8rem]'/>
+                        <img src={rectangle} alt="" className='w-[8rem]'/>
                     </div>
                 </div>
-                <div className="mt-8 italic font-bold max-w-[200px] ml-auto justify-end">
-                    <p>The Terren Family</p>
-                    <p>"Only Gen Zs create Gen Zs solutions"</p>
-
-                </div>
-                <img src={circle} alt="circle"  className='absolute opacity-20 w-[100px] xs:w-[120px] left-1 xs:left-2  top-1 xs:top-2'/>
-                <img src={rectangle} alt="rectangle" className='absolute opacity-20 w-[120px] -bottom-16 right-0'/>
+                <img src={circle} alt="circle"  className='absolute opacity-20 w-[100px] xs:w-[120px] left-1 xs:left-2  top-1 xs:top-2 lg:hidden'/>
+                <img src={rectangle} alt="rectangle" className='absolute opacity-20 w-[120px] -bottom-16 right-0 lg:hidden'/>
             </div>
         </section>
     );
