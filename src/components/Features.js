@@ -8,7 +8,7 @@ const Features = () => {
                 </div>
                 <div className="bg-darkGrey px-4 md:px-6 py-8 xl:py-0 text-center rounded-md text-white md:max-w-[425px] lg:max-w-[400px] xl:max-w-[500px] h-[320px] lg:h-[300px] flex flex-col justify-center">
                     <h1 className="text-[28px] md:text-3xl xl:text-[42px] font-bold mb-4 xl:mb-8">Our Vision</h1>
-                    <p className="leading-7 xl:text-lg"> An efficient and uniquely designed set-up/structure that establishes/accomplishes allies African businesses.</p>
+                    <p className="leading-7 xl:text-lg"> To build an efficient and unique structure that fosters economic alliance between African industries.</p>
                 </div>
             </div>
         </section>

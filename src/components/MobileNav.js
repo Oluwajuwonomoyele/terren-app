@@ -6,7 +6,6 @@ const MobileNav = ({openNav, setOpenNav}) => {
             <div className="py-8 flex flex-col items-center gap-4 font-semibold text-customBlack">
                 <NavLink to='/' className="hover:bg-customBlack py-2 px-4 hover:text-white rounded-md cursor-pointer transition-all ease-linear duration-200" onClick={() => setOpenNav(false)}>Home</NavLink>
                 <NavLink to='/about' className="hover:bg-customBlack py-2 px-4 hover:text-white rounded-md cursor-pointer transition-all ease-linear duration-200" onClick={() => setOpenNav(false)}>About</NavLink>
-                <NavLink to='/faq' className="hover:bg-customBlack py-2 px-4 hover:text-white rounded-md cursor-pointer transition-all ease-linear duration-200" onClick={() => setOpenNav(false)}>Support & FAQ's</NavLink>
                 <button className='bg-customBlack text-white py-2 px-4 rounded-md border-2 border-customBlack hover:bg-transparent hover:text-customBlack transition-all ease-linear duration-200 cursor-pointer' onClick={() => setOpenNav(false)}>Get Started</button>
             </div>
         </div>

@@ -13,7 +13,6 @@ const Navbar = ({openNav, setOpenNav}) => {
                 <div className='lg:flex gap-8 items-center hidden'>
                     <NavLink to='/' className='text-customBlack py-2 px-4 rounded-md border-2 border-transparent hover:bg-customBlack hover:text-white transition-all ease-linear duration-200 cursor-pointer'>Home</NavLink>
                     <NavLink to='/about' className='text-customBlack py-2 px-4 rounded-md border-2 border-transparent hover:bg-customBlack hover:text-white transition-all ease-linear duration-200 cursor-pointer'>About</NavLink>
-                    <NavLink to='/faq' className='text-customBlack py-2 px-4 rounded-md border-2 border-transparent hover:bg-customBlack hover:text-white transition-all ease-linear duration-200 cursor-pointer'>Support & FAQ's</NavLink>
                 </div>
 
                 <div className='hidden lg:block'>

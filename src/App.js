@@ -4,7 +4,6 @@ import MobileNav from './components/MobileNav';
 import Navbar from './components/Navbar'
 import Home from './pages/Home';
 import About from './pages/About';
-import Faq from './pages/Faq';
 import Footer from './components/Footer'
 
 function App() {
@@ -16,8 +15,7 @@ function App() {
       <Navbar openNav={openNav} setOpenNav={setOpenNav} />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/faq' element={<Faq />} />
+        <Route path='/about' element={<About />} />>
       </Routes>
       <Footer />
     </Router>
