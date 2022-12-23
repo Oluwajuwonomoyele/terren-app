@@ -13,7 +13,6 @@ const Team = () => {
                             <img src={person} alt="" />
                         </div>
                         <h3 className='text-xl font-bold py-4'>Name, <span>Position</span></h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ullam obcaecati, voluptate qui minima animi.</p>
                         <div className='flex gap-4 justify-center py-4 cursor-pointer'>
                             <img src={Twitter} alt="twitter" />
                         </div>
@@ -23,7 +22,6 @@ const Team = () => {
                             <img src={person} alt="" />
                         </div>
                         <h3 className='text-xl font-bold py-4'>Name, <span>Position</span></h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ullam obcaecati, voluptate qui minima animi.</p>
                         <div className='flex gap-4 justify-center py-4 cursor-pointer'>
                             <img src={Twitter} alt="twitter" />
                         </div>
@@ -33,7 +31,6 @@ const Team = () => {
                             <img src={person} alt="" />
                         </div>
                         <h3 className='text-xl font-bold py-4'>Name, <span>Position</span></h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ullam obcaecati, voluptate qui minima animi.</p>
                         <div className='flex gap-4 justify-center py-4 cursor-pointer'>
                             <img src={Twitter} alt="twitter" />
                         </div>
@@ -43,7 +40,6 @@ const Team = () => {
                             <img src={person} alt="" />
                         </div>
                         <h3 className='text-xl font-bold py-4'>Name, <span>Position</span></h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ullam obcaecati, voluptate qui minima animi.</p>
                         <div className='flex gap-4 justify-center py-4 cursor-pointer'>
                             <img src={Twitter} alt="twitter" />
                         </div>
@@ -53,7 +49,6 @@ const Team = () => {
                             <img src={person} alt="" />
                         </div>
                         <h3 className='text-xl font-bold py-4'>Name, <span>Position</span></h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ullam obcaecati, voluptate qui minima animi.</p>
                         <div className='flex gap-4 justify-center py-4 cursor-pointer'>
                             <img src={Twitter} alt="twitter" />
                         </div>

@@ -2,6 +2,8 @@ import Logo from '../assets/logo.png'
 import Twitter from '../assets/svg/twitter.svg'
 import Instagram from '../assets/svg/instagram.svg'
 import { Link } from 'react-router-dom'
+import { TfiLinkedin } from 'react-icons/tfi'
+
 const Footer = () => {
     return (  
         <footer className="bg-f1">
@@ -10,10 +12,13 @@ const Footer = () => {
                     <Link to='/' className='w-[100px] md:w-[140px] max-w-[238px] cursor-pointer'>
                         <img src={Logo} alt="logo" />
                     </Link>
-                    <p className='md:max-w-[550px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consequatur expedita beatae optio eveniet aliquam?</p>
-                    <div className='flex gap-4'>
+                    <p className='md:max-w-[550px]'>Terren connects industries to solve global economic problems through established strategic partnerships, for wealth creation</p>
+                    <div className='flex gap-4 items-center'>
                         <img src={Twitter} alt="twitter-logo" className='cursor-pointer' />
                         <img src={Instagram} alt="instagram-logo" className='cursor-pointer' />
+                        <div className='p-1 bg-customBlack rounded cursor-pointer'>
+                            <TfiLinkedin size={20} className='text-white'/>
+                        </div>
                     </div>
                 </div> 
                 <div className='flex flex-col lg:flex-row lg:justify-center gap-8 lg:gap-[10rem] xl:gap-[20rem] lg:basis-[60%]'>
@@ -21,7 +26,6 @@ const Footer = () => {
                         <h2 className='font-bold lg:text-[26px]'>Company</h2>
                         <div>
                             <p className='hover:underline cursor-pointer'>About</p>
-                            <p className='hover:underline cursor-pointer'>Support & FAQ's</p>
                         </div>
                     </div>
                     <div className='flex flex-col gap-4'>
