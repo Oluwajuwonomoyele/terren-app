@@ -10,19 +10,19 @@ const Footer = ({scrollToTop}) => {
         <footer className="bg-f1">
             <div className="container mx-auto py-14 px-8 lg:px-14 flex flex-col lg:flex-row lg:items-start gap-8 items-center text-center lg:text-left ">
                <div className='flex flex-col items-center lg:items-start lg:justify-start gap-6 lg:basis-[40%]'>
-                    <Link to='/' className='w-[100px] md:w-[140px] max-w-[238px] cursor-pointer'>
+                    <Link onClick={() => {scrollToTop()}} to='/' className='w-[100px] md:w-[140px] max-w-[238px] cursor-pointer'>
                         <img src={Logo} alt="logo" />
                     </Link>
                     <p className='md:max-w-[550px]'>Terren connects industries to solve global economic problems through established strategic partnerships, for wealth creation.</p>
                     <div className='flex gap-4 items-center'>
                         {/* <img src={Twitter} alt="twitter-logo" className='cursor-pointer' />
                         <img src={Instagram} alt="instagram-logo" className='cursor-pointer' /> */}
-                        <a href='https://www.linkedin.com/company/terren-africa' className='p-1 bg-customBlack rounded cursor-pointer'>
+                        <a href='https://www.linkedin.com/company/terren-africa' target='_blank' rel='noreferrer' className='p-1 bg-customBlack rounded cursor-pointer'>
                             <TfiLinkedin size={20} className='text-white'/>
                         </a>
                     </div>
                     <div className='flex flex-col gap-2'>
-                        <a href="mailto:info@terren.tech" className='hover:underline font-bold'>info@terren.tech</a>
+                        <a href="mailto:info@terren.tech" className='hover:underline font-bold' target='_blank' rel='noreferrer'>info@terren.tech</a>
                         <div className='flex items-center gap-2'>
                             <BsFillTelephoneFill />
                             <a href="tel:+2349136125779" className='hover:underline font-bold'>09136125779</a>
@@ -39,8 +39,8 @@ const Footer = ({scrollToTop}) => {
                     <div className='flex flex-col lg:gap-4'>
                         <h2 className='font-bold lg:text-[26px]'>Legal</h2>
                         <div>
-                            <p className=''>Privacy Policy <span className='text-sm font-bold'>(In progress)</span></p>
-                            <p className=''>Terms of service <span className='text-sm font-bold'>(In progress)</span></p>
+                            <p className=''>Privacy Policy</p>
+                            <p className=''>Terms of service</p>
                         </div>
                     </div>
                 </div>

@@ -20,8 +20,8 @@ const Team = () => {
                         </div>
                         <h3 className='text-xl font-bold py-4'>Deji, <span>CEO</span></h3>
                         <div className='flex gap-4 justify-center py-4'>
-                            <a href='https://twitter.com/callmenovaaa' className='cursor-pointer'><img src={Twitter} alt="twitter" /></a>
-                            <a href='https://www.linkedin.com/in/deji-olanrewaju-27b8b4253/' className='p-1 bg-customBlack rounded cursor-pointer'>
+                            <a href='https://twitter.com/callmenovaaa' target='_blank' rel='noreferrer' className='cursor-pointer'><img src={Twitter} alt="twitter" /></a>
+                            <a href='https://www.linkedin.com/in/deji-olanrewaju-27b8b4253/' target='_blank' rel='noreferrer' className='p-1 bg-customBlack rounded cursor-pointer'>
                                 <TfiLinkedin size={20} className='text-white'/>
                             </a>
                         </div>
@@ -32,8 +32,8 @@ const Team = () => {
                         </div>
                         <h3 className='text-xl font-bold py-4'>Demilade, <span>COO</span></h3>
                         <div className='flex gap-4 justify-center py-4'>
-                            <a href='https://twitter.com/demiladesamuell' className='cursor-pointer'><img src={Twitter} alt="twitter" /></a>
-                            <a href='https://www.linkedin.com/in/demilade-samuel/' className='p-1 bg-customBlack rounded cursor-pointer'>
+                            <a href='https://twitter.com/demiladesamuell' target='_blank' rel='noreferrer' className='cursor-pointer'><img src={Twitter} alt="twitter" /></a>
+                            <a href='https://www.linkedin.com/in/demilade-samuel/' target='_blank' rel='noreferrer' className='p-1 bg-customBlack rounded cursor-pointer'>
                                 <TfiLinkedin size={20} className='text-white'/>
                             </a>
                         </div>
@@ -44,7 +44,7 @@ const Team = () => {
                         </div>
                         <h3 className='text-xl font-bold py-4'>Rahma, <span>PR & Communications</span></h3>
                         <div className='flex gap-4 justify-center py-4'>
-                            <a href='https://www.linkedin.com/in/rahmatallahiyusuf/' className='p-1 bg-customBlack rounded cursor-pointer'>
+                            <a href='https://www.linkedin.com/in/rahmatallahiyusuf/' target='_blank' rel='noreferrer' className='p-1 bg-customBlack rounded cursor-pointer'>
                                 <TfiLinkedin size={20} className='text-white'/>
                             </a>
                         </div>
@@ -55,7 +55,7 @@ const Team = () => {
                         </div>
                         <h3 className='text-xl font-bold py-4'>Sikiru, <span>Product</span></h3>
                         <div className='flex gap-4 justify-center py-4'>
-                            <a href='https://www.linkedin.com/in/sikiru-olagoke-975773124/' className='p-1 bg-customBlack rounded cursor-pointer'>
+                            <a href='https://www.linkedin.com/in/sikiru-olagoke-975773124/' target='_blank' rel='noreferrer' className='p-1 bg-customBlack rounded cursor-pointer'>
                                 <TfiLinkedin size={20} className='text-white'/>
                             </a>
                         </div>
@@ -66,7 +66,7 @@ const Team = () => {
                         </div>
                         <h3 className='text-xl font-bold py-4'>Joshua, <span>Engineering</span></h3>
                         <div className='flex gap-4 justify-center py-4'>
-                            <a href='https://www.linkedin.com/in/joshuaogunwole/' className='p-1 bg-customBlack rounded cursor-pointer'>
+                            <a href='https://www.linkedin.com/in/joshuaogunwole/' target='_blank' rel='noreferrer' className='p-1 bg-customBlack rounded cursor-pointer'>
                                 <TfiLinkedin size={20} className='text-white'/>
                             </a>
                         </div>
@@ -77,8 +77,8 @@ const Team = () => {
                         </div>
                         <h3 className='text-xl font-bold py-4'>Juwon, <span>Engineering</span></h3>
                         <div className='flex gap-4 justify-center py-4'>
-                            <a href='https://twitter.com/OlutomisinJuwon' className='cursor-pointer'><img src={Twitter} alt="twitter" /></a>
-                            <a href='https://www.linkedin.com/in/oluwajuwon-olutomisin/' className='p-1 bg-customBlack rounded cursor-pointer'>
+                            <a href='https://twitter.com/OlutomisinJuwon' target='_blank' rel='noreferrer' className='cursor-pointer'><img src={Twitter} alt="twitter" /></a>
+                            <a href='https://www.linkedin.com/in/oluwajuwon-olutomisin/' target='_blank' rel='noreferrer' className='p-1 bg-customBlack rounded cursor-pointer'>
                                 <TfiLinkedin size={20} className='text-white'/>
                             </a>
                         </div>
