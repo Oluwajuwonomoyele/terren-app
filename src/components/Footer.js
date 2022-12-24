@@ -3,6 +3,7 @@ import Twitter from '../assets/svg/twitter.svg'
 import Instagram from '../assets/svg/instagram.svg'
 import { Link } from 'react-router-dom'
 import { TfiLinkedin } from 'react-icons/tfi'
+import { BsFillTelephoneFill } from 'react-icons/bs'
 
 const Footer = () => {
     return (  
@@ -20,6 +21,13 @@ const Footer = () => {
                             <TfiLinkedin size={20} className='text-white'/>
                         </div>
                     </div>
+                    <div className='flex flex-col gap-2'>
+                        <a href="mailto:info@terren.tech" className='hover:underline font-bold'>info@terren.tech</a>
+                        <div className='flex items-center gap-2'>
+                            <BsFillTelephoneFill />
+                            <a href="tel:+2349136125779" className='hover:underline font-bold'>09136125779</a>
+                        </div>
+                        </div>
                 </div> 
                 <div className='flex flex-col lg:flex-row lg:justify-center gap-8 lg:gap-[10rem] xl:gap-[20rem] lg:basis-[60%]'>
                     <div className='flex flex-col gap-4'>
