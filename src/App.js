@@ -9,15 +9,19 @@ import Footer from './components/Footer'
 function App() {
   const [openNav, setOpenNav] = useState(false);
 
+  const scrollToTop = () => {
+    window.scrollTo(0,0)
+  }
+
   return (
     <Router>
       <MobileNav openNav={openNav} setOpenNav={setOpenNav} />
       <Navbar openNav={openNav} setOpenNav={setOpenNav} />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />>
+        <Route path='/about' element={<About />} />
       </Routes>
-      <Footer />
+      <Footer scrollToTop={scrollToTop}/>
     </Router>
   );
 }
