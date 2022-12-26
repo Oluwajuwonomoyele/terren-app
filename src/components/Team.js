@@ -6,15 +6,16 @@ import nova from '../assets/profiles/nova.png';
 import rahmna from '../assets/profiles/Rahma.jpg';
 import sikiru from '../assets/profiles/sikiru-product.jpg';
 import { TfiLinkedin } from 'react-icons/tfi'
+import 'aos/dist/aos.css';
 
 const Team = () => {
     return (  
         <section className="bg-e8">
             <div className="container mx-auto px-6 md:px-14 py-14 lg:py-28 text-center">  
-                <h2 className="text-2xl md:text-3xl xl:text-[42px] font-bold mb-8">The Team</h2>
-                <p className='max-w-[600px] mx-auto'>We are a team of bright minded Gen- Zs, versatile and ready to seamlessly connect real estate enterprises with investors to create optimal benefits for stakeholders. </p>
+                <h2 className="text-2xl md:text-3xl xl:text-[42px] font-bold mb-8" data-aos='fade-down'>The Team</h2>
+                <p className='max-w-[600px] mx-auto' data-aos='fade-up' data-aos-duration='1000'>We are a team of bright minded Gen- Zs, versatile and ready to seamlessly connect real estate enterprises with investors to create optimal benefits for stakeholders. </p>
                 <div className='flex flex-col items-center mt-12 gap-8 md:flex-wrap md:flex-row md:justify-center'>
-                    <div className='bg-f1 px-4 rounded-lg text-center shadow-lg md:max-w-[310px] max-w-[400px] w-full h-[380px] lg:h-[480px] flex flex-col justify-center'>
+                    <div className='bg-f1 px-4 rounded-lg text-center shadow-lg md:max-w-[310px] max-w-[400px] w-full h-[380px] lg:h-[480px] flex flex-col justify-center' data-aos='zoom-in' data-aos-duration='1500'>
                         <div className='max-w-[180px] mx-auto mb-4 rounded-full overflow-hidden'>
                             <img src={nova} alt="" className='h-[180px] object-cover' />
                         </div>
@@ -26,7 +27,7 @@ const Team = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='bg-f1 px-4 rounded-lg text-center shadow-lg md:max-w-[310px] max-w-[400px] w-full h-[380px] lg:h-[480px]  flex flex-col justify-center'>
+                    <div className='bg-f1 px-4 rounded-lg text-center shadow-lg md:max-w-[310px] max-w-[400px] w-full h-[380px] lg:h-[480px]  flex flex-col justify-center' data-aos='zoom-out' data-aos-duration='1500'>
                         <div className='max-w-[180px] mx-auto mb-4 rounded-full overflow-hidden'>
                             <img src={demilade} alt="" className='h-[180px] object-cover' />
                         </div>
@@ -38,7 +39,7 @@ const Team = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='bg-f1 px-4 rounded-lg text-center shadow-lg md:max-w-[310px] max-w-[400px] w-full h-[380px] lg:h-[480px]  flex flex-col justify-center'>
+                    <div className='bg-f1 px-4 rounded-lg text-center shadow-lg md:max-w-[310px] max-w-[400px] w-full h-[380px] lg:h-[480px]  flex flex-col justify-center' data-aos='zoom-in' data-aos-duration='1500'>
                         <div className='max-w-[180px] mx-auto mb-4 rounded-full overflow-hidden'>
                             <img src={rahmna} alt="" className='h-[180px] object-cover' />
                         </div>
@@ -49,7 +50,7 @@ const Team = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='bg-f1 px-4 rounded-lg text-center shadow-lg md:max-w-[310px] max-w-[400px] w-full h-[380px] lg:h-[480px]  flex flex-col justify-center'>
+                    <div className='bg-f1 px-4 rounded-lg text-center shadow-lg md:max-w-[310px] max-w-[400px] w-full h-[380px] lg:h-[480px]  flex flex-col justify-center' data-aos='zoom-out' data-aos-duration='1500'>
                         <div className='max-w-[180px] mx-auto mb-4 rounded-full overflow-hidden'>
                             <img src={sikiru} alt="" className='h-[180px] object-cover' />
                         </div>
@@ -60,7 +61,7 @@ const Team = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='bg-f1 px-4 rounded-lg text-center shadow-lg md:max-w-[310px] max-w-[400px] h-[380px] lg:h-[480px] flex flex-col justify-center w-full'>
+                    <div className='bg-f1 px-4 rounded-lg text-center shadow-lg md:max-w-[310px] max-w-[400px] h-[380px] lg:h-[480px] flex flex-col justify-center w-full' data-aos='zoom-in' data-aos-duration='1500'>
                         <div className='max-w-[180px] mx-auto mb-4 rounded-full overflow-hidden'>
                             <img src={joshua} alt="" className='h-[180px] object-cover'/>
                         </div>
@@ -71,7 +72,7 @@ const Team = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='bg-f1 px-4 rounded-lg text-center shadow-lg md:max-w-[310px] max-w-[400px] h-[380px] lg:h-[480px] flex flex-col justify-center w-full'>
+                    <div className='bg-f1 px-4 rounded-lg text-center shadow-lg md:max-w-[310px] max-w-[400px] h-[380px] lg:h-[480px] flex flex-col justify-center w-full' data-aos='zoom-out' data-aos-duration='1500'>
                         <div className='max-w-[180px] mx-auto mb-4 rounded-full overflow-hidden'>
                             <img src={juwon} alt="" className='h-[180px] object-cover'/>
                         </div>

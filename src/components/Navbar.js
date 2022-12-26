@@ -1,8 +1,13 @@
 import Logo from '.././assets/logo.png';
 import { FaBars } from 'react-icons/fa';
 import { NavLink, Link } from 'react-router-dom';
+import AOS from 'aos';
 
 const Navbar = ({openNav, setOpenNav}) => {
+    if(openNav){
+        AOS.refresh()
+    }
+    
     return ( 
         <header className={ openNav ? "bg-f1 relative z-20" : "bg-f1 relative z-20 shadow-lg"}>
             <div className="py-4 px-6 md:px-14 container mx-auto flex justify-between items-center">
