@@ -33,7 +33,7 @@ function App() {
           <ClimbingBoxLoader color="#222222" loading={loading} size={25}/>
           <div className='text-center font-bold flex flex-col gap-2 lg:gap-4'>
             <p className='text-xl lg:text-3xl' data-aos='fade-right'>Creating economic alliances</p>
-            <p className='text-xl lg:text-3xl' data-aos='fade-left'>among African countries</p>
+            <p className='text-xl lg:text-3xl' data-aos='fade-left'>among African companies</p>
             <h2 className='text-2xl lg:text-5xl mt-4 animate-bounce' data-aos='fade-up' data-aos-duration='3000'>Terren Africa</h2>
           </div>
         </div>
