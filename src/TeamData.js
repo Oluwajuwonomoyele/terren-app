@@ -42,15 +42,15 @@ export const TeamData = [
         img: sikiru,
         zoomIn: false
     },
-    {
-        id: 5,
-        name: 'Joshua',
-        position: 'Engineering',
-        twitterLink: null,
-        linkedInLink: 'https://www.linkedin.com/in/joshuaogunwole/',
-        img: joshua,
-        zoomIn: true
-    },
+    // {
+    //     id: 5,
+    //     name: 'Joshua',
+    //     position: 'Engineering',
+    //     twitterLink: null,
+    //     linkedInLink: 'https://www.linkedin.com/in/joshuaogunwole/',
+    //     img: joshua,
+    //     zoomIn: true
+    // },
     {
         id: 6,
         name: 'Juwon',
@@ -58,6 +58,6 @@ export const TeamData = [
         twitterLink: 'https://twitter.com/OlutomisinJuwon',
         linkedInLink: 'https://www.linkedin.com/in/oluwajuwon-olutomisin/',
         img: juwon,
-        zoomIn: false
+        zoomIn: true
     }
 ]
